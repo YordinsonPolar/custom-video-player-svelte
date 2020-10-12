@@ -28,7 +28,7 @@
 			src: "https://firebasestorage.googleapis.com/v0/b/realtime-chat-app-3547a.appspot.com/o/zukuOwarimono%2FZokuOwarimonogatari_3.mp4?alt=media&token=5855bbdf-8eb7-4c96-9ebe-d154a2713a6f",
 		  poster: 'https://images5.alphacoders.com/759/thumb-1920-759200.jpg',
 		  skipTime: {
-		 	 	introTime: { start: "6:14", end: "7:13" },
+		 	 	introTime: { start: "6:14", end: "7:11" },
 			 	endingTime: { start: "24:35", end: "26:07" }
 		 	 },
 		 }, 
