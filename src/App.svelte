@@ -27,6 +27,10 @@
 			 id: 3,
 			src: "https://firebasestorage.googleapis.com/v0/b/realtime-chat-app-3547a.appspot.com/o/zukuOwarimono%2FZokuOwarimonogatari_3.mp4?alt=media&token=5855bbdf-8eb7-4c96-9ebe-d154a2713a6f",
 		  poster: 'https://images5.alphacoders.com/759/thumb-1920-759200.jpg',
+		  skipTime: {
+		 	 	introTime: { start: "6:14", end: "7:13" },
+			 	endingTime: { start: "24:35", end: "26:07" }
+		 	 },
 		 }, 
 		 { 
 			 title: 'Zuku Owarimono 4', 
@@ -34,8 +38,8 @@
 			 src: "https://firebasestorage.googleapis.com/v0/b/realtime-chat-app-3547a.appspot.com/o/zukuOwarimono%2FZokuOwarimonogatari_4.mp4?alt=media&token=adcc73e1-25a0-4a96-ad22-ec10e73a9880",
 		 	 poster: "https://images4.alphacoders.com/244/thumb-1920-244418.png",
 		 	 skipTime: {
-		 	 	introTime: { start: "0:00", end: "0:57" },
-			 	endingTime: { start: "23:06", end: "24:37" }
+		 	 	introTime: { start: "0:00", end: "0:59" },
+			 	endingTime: { start: "23:06", end: "24:38" }
 		 	 },
 		 },
 		 { 
@@ -44,8 +48,8 @@
 			 src: "https://firebasestorage.googleapis.com/v0/b/realtime-chat-app-3547a.appspot.com/o/zukuOwarimono%2FZokuOwarimonogatari_5.mp4?alt=media&token=5c074178-ea2b-4552-b73e-2ea1e074866d",
 		 	 poster: "https://images3.alphacoders.com/116/thumb-1920-116357.jpg",
 		 	 skipTime: {
-		 	 	introTime: { start: "0:00", end: "0:57" },
-			 	endingTime: { start: "23:06", end: "24:37" }
+		 	 	introTime: { start: "0:00", end: "0:59" },
+			 	endingTime: { start: "24:35", end: "26:07" }
 		 	 },
 		 },
 		  { 
@@ -54,8 +58,8 @@
 			 src: "https://firebasestorage.googleapis.com/v0/b/realtime-chat-app-3547a.appspot.com/o/zukuOwarimono%2FZokuOwarimonogatari_6.mp4?alt=media&token=062cbf28-48c1-4b40-b075-117cc5db98b4",
 		 	 poster: "https://images.alphacoders.com/219/thumb-1920-219363.jpg",
 		 	 skipTime: {
-		 	 	introTime: { start: "0:00", end: "0:57" },
-			 	endingTime: { start: "23:06", end: "24:37" }
+		 	 	introTime: { start: "0:00", end: "0:59" },
+			 	endingTime: { start: "30:40", end: "32:12" }
 		 	 },
 		 },
 		 { 
@@ -63,10 +67,6 @@
 			 id: 7,
 			 src: "Testing Error",
 		 	 poster: "https://images3.alphacoders.com/807/thumb-1920-807591.jpg",
-		 	 skipTime: {
-		 	 	introTime: { start: "0:00", end: "0:57" },
-			 	endingTime: { start: "23:06", end: "24:37" }
-		 	 },
 		 },
 
 	] 
