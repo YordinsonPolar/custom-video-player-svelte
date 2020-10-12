@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: #f9f9f9;
+}
+
+:root {
+	--text-color: #f9f9f9;
+	--controls-height: 50px;
+	--bg-color: #000;
+	--icon-size: 1.8rem; 
+	--icon-color: linear-gradient(to left, #4dadfe, #03f0fe, #41b9fe);
+	--transition: 300ms;
+} 
+
+
+html, body {
+	background: #ccc;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+}
+
+body {
+	color: #333;
+	box-sizing: border-box;
+	font-family: Calibri,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+label {
+	display: block;
+}
+
+
+input:disabled {
+	opacity: .4;
+	cursor: default;
+}
+
+button {
+	border: none;
+	background: none;
+	outline: none;
+	cursor: pointer;
+}
+
+button:disabled {
+	color: #999;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+	cursor: pointer;
+	animation: vanish 1200ms;
+}
+
+
+@keyframes vanish {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
