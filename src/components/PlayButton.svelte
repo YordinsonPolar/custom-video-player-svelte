@@ -1,6 +1,6 @@
 <script>
-	import Play from '../Icons/Play.svelte';
-	import Pause from '../Icons/Pause.svelte';
+	import Play from '../icons/Play.svelte';
+	import Pause from '../icons/Pause.svelte';
 	import { playerError }  from '../stores/stores.js';
 	export let paused;
 
