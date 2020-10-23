@@ -133,14 +133,23 @@
 			case 39: forwardTenSeconds(); break;
 			case 32: togglePlay(); break;
 		}
-	} 
+	}
+
+	function handleTabVisibility() {
+		if (document.visibilityState === 'visible' && loadStart) {	
+			paused = false;
+		}
+		else paused = true;
+	}
 	
 </script>
 
 <svelte:window 
 	on:unload={saveTimeOnLeave}
 	on:keydown={handleKeyShortcuts}
+	on:visibilitychange={handleTabVisibility}
 	 />
+
 	
 
 <div 
