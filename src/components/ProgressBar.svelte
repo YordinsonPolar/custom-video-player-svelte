@@ -8,7 +8,7 @@
 	var firebaseConfig = {
     apiKey: "AIzaSyDFoOt_FMYOYxSvUpbf5KKgVlgRRJEjlGs",
     authDomain: "svelte-video-player.firebaseapp.com",
-    databaseURL: "https://svelte-video-player.firebaseio.com",
+    databaseURL: "https://svelte-video-player.firebaseio.com?timeout=1m",
     projectId: "svelte-video-player",
     storageBucket: "svelte-video-player.appspot.com",
     messagingSenderId: "745169266641",
